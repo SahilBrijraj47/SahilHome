@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="project2Style.css">
+    <!-- <script src="https://cdn.emailjs.com/dist/email.min.js"></script> -->
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("zPpqZJbe8Vj1DfNLH");
+        })();
+    </script>
+    <script src="script.js"> </script>
+
+
+
+</head>
+
+<body class="Contact">
+    <div class="Con_Container">
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="Background.html">BACKGROUND</a>
+            <a href="Research.html">RESEARCH</a>
+            <a href="Services.html">SERVICES</a>
+            <a href="Teaching.html">TEACHING</a>
+            <a href="Contact2.html">CONTACT</a>
+        </nav>
+    </div>
+    <h1 class="Con_h1">Contact Me</h1>
+    <h2 class="Con_h2">Feel free to leave me a message for any enquiries</h2>
+    <div>
+        <form class="Con_form" id="contact-form">
+            <label  class="Con_label" for="name">Your Name:</label>
+            <input  class="Con_input" type="text" id="name" name="name" required>
+            <br>
+
+            <label  class="Con_label" for="email">Your Email:</label>
+            <input  class="Con_input" type="text" id="email" name="email" required>
+            <br>
+            <label class="Con_label" for="subject">Subject:</label>
+            <input class="Con_input" type="text" id="subject" name="subject" required>
+
+            <br>
+            <label class="Con_label" for="message">Your Message:</label>
+            <textarea class="Con_textarea" id="message" name="message" required></textarea>
+
+            <button class="Con_button" type="submit" onclick="sendMail()">Send Message</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

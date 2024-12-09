@@ -1,0 +1,494 @@
+.homepage {
+    background-color: rgb(49, 50, 50);
+    background-image: url(images/picA.jpg);
+    background-size: 100%;
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* background-position: top; */
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    /* width: auto; */
+    /* height: auto; */
+}
+
+.Home_container {
+    width: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+
+    header {
+        color: chartreuse;
+        font-size: 20pt;
+        height: 118px;
+        text-align: center;
+    }
+
+    header img {
+        width: auto;
+        height: 110px;
+    }
+
+    nav {
+        background-color: rgba(152, 4, 4, 0.59);
+        /* font-size: 20pt; */
+        /* height: 118px; */
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    nav a {
+        color: chartreuse;
+        text-decoration: none;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    main {
+        /* font-size: 20pt; */
+        height: 80vh;
+        text-align: center;
+    }
+
+    main p {
+        /* background-color: rgb(124, 89, 25); */
+        /* height: 4px; */
+        color: aqua;
+        text-align: center;
+        padding-top: 8px;
+        padding-left: 240px;
+        padding-right: 240px;
+
+        a {
+            color: aqua;
+        }
+
+    }
+
+    footer {
+        background-color: rgba(40, 9, 140, 0.493);
+        text-align: center;
+        /* padding-top: 1px;
+        padding-bottom: 1px; */
+    }
+
+    footer p {
+        /* padding-left: auto;
+        padding-right: auto; */
+        text-align: center;
+        font-size: 10pt;
+        color: aliceblue;
+    }
+}
+
+.Background {
+    background-color: rgba(5, 5, 5, 0.942);
+    background-image: url('images/Spiderman1.jpg');
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position-x: 380px;
+}
+
+.BG_Container {
+    /* background-color: rgba(5, 5, 5, 0.942); */
+    /* background-image: url('images/Spiderman1.jpg'); */
+    color: aquamarine;
+    background-size: cover;
+    /* background-repeat: no-repeat;   */
+    margin-left: 400px;
+    margin-right: 400px;
+
+    /* background-size: 75%; */
+    /* background-position: top; */
+    /* background-position-x: 460px; */
+    /* width: 1024px; */
+    /* height: 10%; */
+    /* height: 100%; */
+    main {
+        height: 80vh;
+    }
+
+    nav {
+        background-color: rgba(152, 4, 4, 0.59);
+        /* font-size: 20pt; */
+        /* height: 118px; */
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    nav a {
+        color: chartreuse;
+        text-decoration: none;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .BackGroundFoot {
+        background-color: rgba(40, 9, 140, 0.493);
+        /* width: auto; */
+        /* padding-left: 200px; */
+    }
+}
+
+.Research {
+    background-color: rgba(5, 5, 5, 0.942);
+    background-image: url('images/deadpool.jpg');
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position-x: 620px;
+}
+
+.Res_Container {
+    /* background-color: rgba(5, 5, 5, 0.942); */
+    /* background-image: url('images/Spiderman1.jpg'); */
+    color: aquamarine;
+    background-size: cover;
+    /* background-repeat: no-repeat;   */
+    margin-left: 25%;
+    margin-right: 28%;
+
+    /* background-size: 75%; */
+    /* background-position: top; */
+    /* background-position-x: 460px; */
+    /* width: 1024px; */
+    /* height: 10%; */
+    /* height: 100%; */
+    main {
+        height: 83vh;
+    }
+
+    nav {
+        background-color: rgba(152, 4, 4, 0.59);
+        /* font-size: 20pt; */
+        /* height: 118px; */
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    nav a {
+        color: chartreuse;
+        text-decoration: none;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    footer {
+        background-color: rgba(40, 9, 140, 0.493);
+    }
+
+
+    /* #############################################33 */
+
+    .Res_container2 {
+        display: flex;
+        /* Use Flexbox to align tiles horizontally */
+        justify-content: center;
+        /* Center the tiles */
+        align-items: center;
+        /* Align items vertically if needed */
+        /* height: 100vh; Full viewport height */
+        gap: 20px;
+        /* Space between tiles */
+    }
+
+    .tile {
+        width: 150px;
+        /* height: 150px; */
+        background-color: rgba(212, 16, 16, 0.592);
+        /* Blue background color */
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+        /* Rounded corners */
+        text-align: center;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        /* Slight shadow */
+        transition: transform 0.2s;
+        /* Animation effect */
+    }
+
+    .tile:hover {
+        transform: scale(1.05);
+        /* Slightly enlarge tile on hover */
+    }
+
+    .tile a {
+        text-decoration: none;
+        /* Remove underline from link */
+        color: white;
+        /* Link color */
+        font-weight: bold;
+        /* Make the text bold */
+    }
+
+
+
+
+
+
+}
+
+
+/* #####################################################33 */
+.Services {
+    background-color: rgba(5, 5, 5, 0.942);
+    background-image: url('images/optimus1.jpg');
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position-x: 380px;
+}
+
+.Serv_Container {
+    /* background-color: rgba(5, 5, 5, 0.942); */
+    /* background-image: url('images/Spiderman1.jpg'); */
+    color: aquamarine;
+    background-size: cover;
+    /* background-repeat: no-repeat;   */
+    margin-left: 400px;
+    margin-right: 400px;
+
+    /* background-size: 75%; */
+    /* background-position: top; */
+    /* background-position-x: 460px; */
+    /* width: 1024px; */
+    /* height: 10%; */
+    /* height: 100%; */
+    main {
+        height: 80vh;
+        color: black;
+    }
+
+    nav {
+        background-color: rgba(152, 4, 4, 0.59);
+        /* font-size: 20pt; */
+        /* height: 118px; */
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    nav a {
+        color: chartreuse;
+        text-decoration: none;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    footer {
+        background-color: rgba(40, 9, 140, 0.493);
+    }
+
+    .serv_h1 {
+        color: rgba(8, 8, 173, 0.61);
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .Serv_Foot {
+        background-color: rgba(29, 5, 119, 0.67);
+    }
+}
+
+
+/* ########### Teaching ################ */
+.Teaching {
+    background-color: rgb(0, 0, 0);
+    background-image: url('images/gipsy5.jpg');
+    background-repeat: no-repeat;
+    background-size: 92%;
+    background-position-x: 300px;
+}
+
+.Tea_Container {
+    /* background-color: rgba(5, 5, 5, 0.942); */
+    /* background-image: url('images/Spiderman1.jpg'); */
+    color: aquamarine;
+    background-size: cover;
+    /* background-repeat: no-repeat;   */
+    margin-left: 400px;
+    margin-right: 400px;
+
+    /* background-size: 75%; */
+    /* background-position: top; */
+    /* background-position-x: 460px; */
+    /* width: 1024px; */
+    /* height: 10%; */
+    /* height: 100%; */
+    main {
+        height: 80vh;
+        color: rgb(227, 224, 14);
+    }
+
+    nav {
+        background-color: rgba(152, 4, 4, 0.59);
+        /* font-size: 20pt; */
+        /* height: 118px; */
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    nav a {
+        color: chartreuse;
+        text-decoration: none;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+    .Tea_h1 {
+        color: rgb(56, 231, 12);
+        font-size: 40px;
+        text-align: left;
+    }
+
+    .Tea_h2 {
+        color: rgb(56, 231, 12);
+        /* margin-top: 0; */
+        margin-bottom: 0;
+        /* font-size: 40px; */
+        /* text-align: left; */
+    }
+
+    .Tea_Foot {
+        background-color: rgba(29, 5, 119, 0.67);
+    }
+}
+
+/* ########### Teaching ################ */
+.Contact {
+    background-color: rgb(0, 0, 0);
+    background-image: url('images/Goku.jpg');
+    background-repeat: no-repeat;
+    background-size: 81%;
+    background-position-x: 300px;
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0px;
+    background-color: #6a0606;
+}
+
+.Con_Container {
+    /* background-color: rgba(5, 5, 5, 0.942); */
+    /* background-image: url('images/Spiderman1.jpg'); */
+    color: aquamarine;
+    background-size: cover;
+    /* background-repeat: no-repeat;   */
+    margin-left: 400px;
+    margin-right: 400px;
+
+    /* background-size: 75%; */
+    /* background-position: top; */
+    /* background-position-x: 460px; */
+    /* width: 1024px; */
+    /* height: 10%; */
+    /* height: 100%; */
+
+    nav {
+        background-color: rgba(152, 4, 4, 0.59);
+        /* font-size: 20pt; */
+        /* height: 118px; */
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    nav a {
+        color: chartreuse;
+        text-decoration: none;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    main {
+        height: 80vh;
+        color: rgb(227, 224, 14);
+    }
+
+    
+
+
+}
+
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0px;
+    background-color: #6a0606;
+} */
+
+.Con_h1 {
+    margin-left: 300px;
+    color: aliceblue;
+    /* text-align: left; */
+    margin-bottom: 5px;
+}
+
+.Con_h2{
+    margin-left: 300px;
+    color: aliceblue;
+    margin-top: 0px;
+}
+
+.Con_form {
+    max-width: 500px;
+    margin: auto;
+    margin-left: 290px;
+    padding: 20px;
+    /* background: white; */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Con_label {
+    color: aliceblue;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.Con_input,
+.Con_textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.Con_button {
+    width: 100%;
+    margin-left: 10px;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Con_button:hover {
+    background: #0056b3;
+}
+
+
+
+
+
+
+/*########## Extras ###########*/
+/* 
+.container {
+    text-align: center; /* Center the text */
+/* } */
+
+/* .rotating-image { */
+/* width: 300px; Set the width of the image */
+/* transition: transform 0.6s ease; Smooth transition effect */
+/* } */
+
+/* .rotating-image:hover { */
+/* transform: rotate(360deg); Rotate the image on hover */
+/* }   */
