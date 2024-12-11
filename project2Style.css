@@ -81,6 +81,107 @@
     }
 }
 
+@media only screen and (max-width:410px) {
+    .homepage {
+        margin-left: 0px;
+        margin-right: 0px;
+        background-blend-mode: lighten;
+        /* padding: 20px; */
+        /* background-color: black; */
+        background-repeat: no-repeat;
+        background-size: 300vw;
+        background-position-x: -320px;
+        /* background-position-y: 80px; */
+        display: flex;
+        flex-direction: column;
+        /* background-size: 190%; */
+        background-attachment: fixed;
+        /* position: fixed; */
+
+        /* flex-direction: horizontal; */
+    }
+
+    .Home_container {
+        nav {
+            width: 140px;
+            height: 100px;
+            margin-top: 250px;
+            margin-left: 30px;
+            padding-top: 0px;
+            /* background-color: darkred; */
+        }
+
+        nav a {
+            margin-top: -120px;
+            /* padding: 1px; */
+            /* padding-left: -10px; */
+        }
+
+        /* margin-left: 0px;
+        margin-right: auto; */
+        /* text-align: left; */
+
+        /*  */
+        /* margin-left: -20px; */
+        main p {
+            padding-top: 200px;
+            margin-left: -78vw;
+            margin-right: -78vw;
+            margin-top: -680px;
+            color: ivory;
+        }
+
+        footer {
+            margin-top: 220px;
+            margin-left: -20vw;
+            width: 90vw;
+        }
+
+        /* margin-top:300px; */
+        /* columns: 1; */
+        /* padding-right: 10px; */
+        /* margin-left: 10px; */
+
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* height: 40vh; */
+    }
+
+    /* .Con_form {
+        margin-left: -19px;
+        margin-right: 30px;
+        color: aqua     ;
+
+        .Con_h1 {
+            margin-left: 0px;
+            color: black;
+
+        }
+
+        .Con_h2 {
+            margin-left: 0px;
+            color: black;
+            max-width: 200px;
+
+        }
+    } */
+
+    /* footer {
+            position: relative;
+            padding-left: 10px;
+            margin-top: 600px;
+        } */
+
+
+}
+
+
+
+
+/* ######################################################### */
+/* ######################################################### */
+
+
 .Background {
     background-color: rgba(5, 5, 5, 0.942);
     background-image: url('images/Spiderman1.jpg');
@@ -88,6 +189,7 @@
     background-size: 75%;
     background-position-x: 380px;
 }
+
 
 .BG_Container {
     /* background-color: rgba(5, 5, 5, 0.942); */
@@ -124,12 +226,80 @@
         padding-right: 10px;
     }
 
-    .BackGroundFoot {
+    footer {
         background-color: rgba(40, 9, 140, 0.493);
         /* width: auto; */
         /* padding-left: 200px; */
     }
 }
+
+@media only screen and (max-width:410px) {
+    .Background {
+        margin: 0px;
+        /* padding: 20px; */
+        background-color: black;
+        background-repeat: no-repeat;
+        background-position-x: -600px;
+        background-position-y: 80px;
+        display: flex;
+        background-size: 250%;
+        background-attachment: fixed;
+        /* position: fixed; */
+        /* background-size: 100vw; */
+        /* flex-direction: horizontal; */
+    }
+
+    .BG_Container {
+        /* margin-top:300px; */
+        /* columns: 1; */
+        /* padding: 20px; */
+        margin-left: 10px;
+        margin-right: 10vw;
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* height: 40vh; */
+
+    }
+
+    /* .BackGround_p{
+        padding-bottom: 200px;
+
+    } */
+    main p {
+        padding-bottom: 20px;
+
+    }
+
+    footer {
+        position: relative;
+        /* background-color: #007bff; */
+        /* color: #007bff; */
+        /* padding: 0%; */
+        /* position: fixed; */
+        /* margin-top: auto; */
+        margin-bottom: 0px;
+        /* padding: 0%; */
+        margin-left: 0px;
+        margin-right: 0vw;
+        margin-top: 350px;
+        /* bottom: 0px; */
+        width: 85vw;
+
+
+    }
+
+    /* .BackGroundFoot { */
+    /* padding: 0%; */
+    /* margin-left: 0px; */
+    /* margin-right: 0vw; */
+    /* margin-top: auto; */
+    /* bottom: 0px; */
+
+    /* position: fixed; */
+    /* width: 85vw */
+    /* } */
+}
+
 
 .Research {
     background-color: rgba(5, 5, 5, 0.942);
@@ -223,12 +393,61 @@
         /* Make the text bold */
     }
 
+}
 
 
+@media only screen and (max-width:410px) {
+    .Research {
+        margin: 0px;
+        /* padding: 20px; */
+        background-color: black;
+        background-repeat: no-repeat;
+        background-position-x: -120px;
+        background-position-y: 80px;
+        display: flex;
+        background-size: 190%;
+        background-attachment: fixed;
+        /* position: fixed; */
+        /* background-size: 100vw; */
+        /* flex-direction: horizontal; */
+    }
+
+    .Res_Container {
+        margin-left: 0px;
+
+        main p {
+            /* margin-left: -45px; */
+
+            /* margin-top:300px; */
+            /* columns: 1; */
+            padding-right: 10px;
+            margin-left: 10px;
+            /* margin-right: 10px; */
+            /* display: flex; */
+            /* flex-direction: column; */
+            /* height: 40vh; */
+
+        }
+
+        .Res_container2 {
+            flex: auto;
+            flex-direction: column;
+
+        }
+
+
+        footer {
+            position: relative;
+            padding-left: 10px;
+            /* bottom: 0; */
+            margin-top: 600px;
+        }
+    }
 
 
 
 }
+
 
 
 /* #####################################################33 */
@@ -289,6 +508,48 @@
     .Serv_Foot {
         background-color: rgba(29, 5, 119, 0.67);
     }
+}
+
+@media only screen and (max-width:410px) {
+    .Services {
+        margin: 0px;
+        /* padding: 20px; */
+        background-color: black;
+        background-repeat: no-repeat;
+        background-size: 250vw;
+        background-position-x: -350px;
+        background-position-y: 80px;
+        display: flex;
+        /* background-size: 190%; */
+        background-attachment: fixed;
+        /* position: fixed; */
+
+        /* flex-direction: horizontal; */
+    }
+
+    .Serv_Container {
+        /* margin-left: 0px; */
+
+
+        margin-left: 5px;
+
+        /* margin-top:300px; */
+        /* columns: 1; */
+        /* padding-right: 10px; */
+        /* margin-left: 10px; */
+        /* margin-right: 10px; */
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* height: 40vh; */
+
+
+        /* footer {
+            position: relative;
+            padding-left: 10px;
+            margin-top: 600px;
+        } */
+    }
+
 }
 
 
@@ -357,6 +618,48 @@
     }
 }
 
+@media only screen and (max-width:410px) {
+    .Teaching {
+        margin: 0px;
+        /* padding: 20px; */
+        background-color: black;
+        background-repeat: no-repeat;
+        background-size: 250vw;
+        background-position-x: -175px;
+        background-position-y: 80px;
+        display: flex;
+        /* background-size: 190%; */
+        background-attachment: fixed;
+        /* position: fixed; */
+
+        /* flex-direction: horizontal; */
+    }
+
+    .Tea_Container {
+        margin-left: 5px;
+        margin-right: 10px;
+
+        /* margin-left: 5px; */
+
+        /* margin-top:300px; */
+        /* columns: 1; */
+        /* padding-right: 10px; */
+        /* margin-left: 10px; */
+
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* height: 40vh; */
+
+
+        /* footer {
+            position: relative;
+            padding-left: 10px;
+            margin-top: 600px;
+        } */
+    }
+
+}
+
 /* ########### Teaching ################ */
 .Contact {
     background-color: rgb(0, 0, 0);
@@ -408,7 +711,7 @@
         color: rgb(227, 224, 14);
     }
 
-    
+
 
 
 }
@@ -421,14 +724,14 @@
 } */
 
 .Con_h1 {
-    margin-left: 300px;
+    margin-left: 160px;
     color: aliceblue;
     /* text-align: left; */
     margin-bottom: 5px;
 }
 
-.Con_h2{
-    margin-left: 300px;
+.Con_h2 {
+    margin-left: 160px;
     color: aliceblue;
     margin-top: 0px;
 }
@@ -436,7 +739,7 @@
 .Con_form {
     max-width: 500px;
     margin: auto;
-    margin-left: 290px;
+    margin-left: 140px;
     padding: 20px;
     /* background: white; */
     border-radius: 5px;
@@ -474,7 +777,67 @@
 }
 
 
+@media only screen and (max-width:410px) {
+    .Contact {
+        margin-left: 0px;
+        /* padding: 20px; */
+        background-color: black;
+        background-repeat: no-repeat;
+        background-size: 250vw;
+        background-position-x: -425px;
+        /* background-position-y: 80px; */
+        display: flex;
+        flex-direction: column;
+        /* background-size: 190%; */
+        background-attachment: fixed;
+        /* position: fixed; */
 
+        /* flex-direction: horizontal; */
+    }
+
+    .Con_Container {
+        /* margin-left: -400px; */
+        margin-right: 10px;
+
+        margin-left: -20px;
+
+        /* margin-top:300px; */
+        /* columns: 1; */
+        /* padding-right: 10px; */
+        /* margin-left: 10px; */
+
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* height: 40vh; */
+    }
+
+    .Con_form {
+        margin-left: -19px;
+        margin-right: 30px;
+        color: aqua;
+
+        .Con_h1 {
+            margin-left: 0px;
+            color: black;
+
+        }
+
+        .Con_h2 {
+            margin-left: 0px;
+            color: black;
+            max-width: 200px;
+
+        }
+    }
+
+    /* footer {
+            position: relative;
+            padding-left: 10px;
+            margin-top: 600px;
+        } */
+
+
+}
 
 
 

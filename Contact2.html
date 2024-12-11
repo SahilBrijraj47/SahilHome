@@ -23,38 +23,41 @@
 </head>
 
 <body class="Contact">
-    <div class="Con_Container">
-        <nav>
-            <a href="index.html">HOME</a>
-            <a href="Background.html">BACKGROUND</a>
-            <a href="Research.html">RESEARCH</a>
-            <a href="Services.html">SERVICES</a>
-            <a href="Teaching.html">TEACHING</a>
-            <a href="Contact2.html">CONTACT</a>
-        </nav>
-    </div>
-    <h1 class="Con_h1">Contact Me</h1>
-    <h2 class="Con_h2">Feel free to leave me a message for any enquiries</h2>
-    <div>
-        <form class="Con_form" id="contact-form">
-            <label  class="Con_label" for="name">Your Name:</label>
-            <input  class="Con_input" type="text" id="name" name="name" required>
-            <br>
+    <main>
+        <div class="Con_Container">
+            <nav>
+                <a href="index.html">HOME</a>
+                <a href="Background.html">BACKGROUND</a>
+                <a href="Research.html">RESEARCH</a>
+                <a href="Services.html">SERVICES</a>
+                <a href="Teaching.html">TEACHING</a>
+                <a href="Contact2.html">CONTACT</a>
+            </nav>
+        </div>
 
-            <label  class="Con_label" for="email">Your Email:</label>
-            <input  class="Con_input" type="text" id="email" name="email" required>
-            <br>
-            <label class="Con_label" for="subject">Subject:</label>
-            <input class="Con_input" type="text" id="subject" name="subject" required>
+        <div class="Con_form">
+            <h1 class="Con_h1">Contact Me</h1>
+            <h2 class="Con_h2">Feel free to leave me a message for any enquiries</h2>
+            <form class="Con_form" id="contact-form">
+                <label class="Con_label" for="name">Your Name:</label>
+                <input class="Con_input" type="text" id="name" name="name" required>
+                <br>
 
-            <br>
-            <label class="Con_label" for="message">Your Message:</label>
-            <textarea class="Con_textarea" id="message" name="message" required></textarea>
+                <label class="Con_label" for="email">Your Email:</label>
+                <input class="Con_input" type="text" id="email" name="email" required>
+                <br>
+                <label class="Con_label" for="subject">Subject:</label>
+                <input class="Con_input" type="text" id="subject" name="subject" required>
 
-            <button class="Con_button" type="submit" onclick="sendMail()">Send Message</button>
-        </form>
-    </div>
-    <script src="script.js"></script>
+                <br>
+                <label class="Con_label" for="message">Your Message:</label>
+                <textarea class="Con_textarea" id="message" name="message" required></textarea>
+
+                <button class="Con_button" type="submit" onclick="sendMail()">Send Message</button>
+            </form>
+        </div>
+        <script src="script.js"></script>
+    </main>
 </body>
 
 </html>
