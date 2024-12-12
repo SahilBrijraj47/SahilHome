@@ -397,7 +397,7 @@
 }
 
 
-@media only screen and (max-width:410px) {
+@media only screen and (max-width:500px) {
     .Research {
         margin: 0px;
         /* padding: 20px; */
@@ -511,7 +511,7 @@
     }
 }
 
-@media only screen and (max-width:410px) {
+@media only screen and (max-width:500px) {
     .Services {
         margin: 0px;
         /* padding: 20px; */
@@ -619,7 +619,7 @@
     }
 }
 
-@media only screen and (max-width:410px) {
+@media only screen and (max-width:500px) {
     .Teaching {
         margin: 0px;
         /* padding: 20px; */
@@ -778,7 +778,7 @@
 }
 
 
-@media only screen and (max-width:410px) {
+@media only screen and (max-width:500px) {
     .Contact {
         margin-left: 0px;
         /* padding: 20px; */
