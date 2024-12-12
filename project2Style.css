@@ -81,9 +81,9 @@
     }
 }
 
-@media only screen and (max-width:370px) {
+@media only screen and (max-width:500px) {
     .homepage {
-        width:350px;
+        /*maxwidth:350px;*/
         margin-left: 0px;
         margin-right: 0px;
         background-blend-mode: lighten;
